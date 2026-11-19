@@ -1,0 +1,14 @@
+{
+  "name": "popcakes31-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web de PopCakes31 · Repostería creativa & coffee (Lloret de Mar). Sitio estático sin dependencias.",
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/serve.mjs 4173",
+    "check": "node tools/check.mjs && node --check assets/js/main.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
